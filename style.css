@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 18%, rgba(253,187,45,1) 77%);
+}
+  h1 {
+  color: red;
+ text-align: center;
+ font-family: monospace;
+}
+
+h2{
+  font-family: monospace;
+}
+
+.mailToButton { 
+  background: lightsalmon;
+  padding: 10px 10px;
+  border-radius: 15px;
+  color: white;
+  cursor:pointer;
+}
+
+.mailToButton:hover {
+  background: salmon;
+}
+
+.logo{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-left:40%;
+}
